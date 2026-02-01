@@ -8,3 +8,6 @@ env*/
 
 # Editors
 .vscode/
+
+#github editors
+.github
