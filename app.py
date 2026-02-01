@@ -22,7 +22,7 @@ def message_hello(message, say):
                 "text": {"type": "mrkdwn", "text": f"Hey there <@{message['user']}>!"},
                 "accessory": {
                     "type": "button",
-                    "text": {"type": "plain_text", "text": "Click Me"},
+                    "text": {"type": "plain_text", "text": "Hit API"},
                     "action_id": "button_click",
                 },
             }
