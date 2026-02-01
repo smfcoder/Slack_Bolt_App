@@ -1,7 +1,7 @@
 services:
   slack-bot:
     build: .
-    image: slack-bolt-bot:v1  # <--- Put your custom name here
+    image: slack-bolt-bot:v2  # <--- Put your custom name here
     container_name: slack-bolt-container
     restart: always
     env_file:
