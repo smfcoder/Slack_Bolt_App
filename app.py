@@ -29,7 +29,7 @@ def message_hello(message, say):
         ],
         text=f"Hey there <@{message['user']}>!...Lets try to add AI capabilities in this Slackbolt",
     )
-
+# Let us try to add some AI capabilites
 
 @app.action("button_click")
 def action_button_click(body, ack, say):
