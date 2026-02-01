@@ -27,7 +27,7 @@ def message_hello(message, say):
                 },
             }
         ],
-        text=f"Hey there <@{message['user']}>!",
+        text=f"Hey there <@{message['user']}>!...Lets try to add AI capabilities in this Slackbolt",
     )
 
 
